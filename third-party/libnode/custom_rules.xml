@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="libnode-custom-rules">
+    <target name="-pre-compile">
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="../bridge-java/bin">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+</project>
