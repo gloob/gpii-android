@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="app-custom-rules">
+    <target name="-pre-build">
+        <path id="app.classpath">
+            <pathelement location="contrib/jtar-1.0.4.jar"/>
+            <path refid="Android Dependencies.libraryclasspath"/>
+        </path>
+    </target>
+</project>
